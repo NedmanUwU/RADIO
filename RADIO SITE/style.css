@@ -1,0 +1,75 @@
+html {
+    background: #c3b7db;
+    color: #19171c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+header{
+  background-color: rgb(103, 56, 163);
+  color: white;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+.container{
+    color: rgb(153, 55, 55);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.station{
+  margin: 10px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 15px 22px #19171c;
+}
+
+.station-body{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+
+  img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+  }
+  .station-info{
+    border-left: 2px solid rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+    .station-name{
+      color: white;
+      font-size: 50px;
+      padding: 3px;
+      margin: 0;
+    }
+    .station-desc{
+      display: none; 
+      visibility: hidden;
+      font-style: italic;
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+      color: rgb(48, 48, 48);
+      flex-wrap: wrap;
+      width: auto
+      margin: 15px;
+    }
+    .show-desc .station-desc {
+      display: block;
+      visibility: visible; 
+    }
+
+  audio {
+    max-width: 300px; /* Adjust this value as needed */
+    width: 100%;
+    display: block;
+    margin-top: 10px; /* Adjust spacing as needed */
+    }

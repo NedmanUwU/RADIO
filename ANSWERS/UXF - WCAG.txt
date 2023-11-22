@@ -1,0 +1,42 @@
+1.
+Semantic element beskriver vart en användare är på en hemsida och kan snabbt ge användaren en idé om vilken roll innehållet inom den delen utgör. Genom att använda element 
+såsom "button" eller "article" istället för "div" så hjälper man inte bara sina kollegor att snabbare förstå vilken roll vissa element utgör och förstå koden, utan även användare 
+som behöver använda assisterande verktyg för att navigera hemsidan. På så sätt kan de få en bild av hur hemsidan ser ut om det exempelvis läses upp för dom, och förstå vad den 
+delen av hemsidan gör. Ibland kan exempelvis länkar se ut som en knapp på en hemsida, men det är då viktigt att man med elementen använder rätt element så att användare får rätt
+information och förstår vad exakt som kommer hända om de klickar där.
+
+Genom att skriva att ett element är en article och inte bara en div, vet användaren på en gång vad de ska förvänta sig av innehållet. Och vet att det med högst trolighet är fokuset
+på hemsidan och vart all den viktiga information som de vill åt finns. 
+
+2.
+För användare som har någon-typ av synskada eller färgblindhet kan text bli nästintill osynlig eller oläsbar om det inte finns kontrast mellan backgrundsfärgen och texten ovanpå.
+Ibland kan det vara lätt att bli lurad att det finns hög kontrast när det i verkliga fallet endast är mättnad eller nyans som skiljer sig åt. WCAG har därför skapat en standard för kontrast
+där minimum är en siffra på 4.5 på vanlig text och 3 för stor text eller headlines. För optimal läsning är siffrorna 7 på vanlig text och 4.5 för stor text eller headlines.
+Enligt deras skala är vit text på en svart bakgrund en siffra på 21 och vit text på vit bakgrund är 1.
+
+3.
+För användare som förlitar sig på verktyg som läser upp hemsidor blir alla bilder på en hemsida hemlig information om det inte finns alternativ text kopplat till dom. Detta är dåligt
+när bilderna är viktiga för att förstå innehållet på en hemsida. Ett exempel är en vanlig artikel som använder sig av bilder för att få fram sitt meddelande, såsom en bild på en graf.
+I detta fal borde man då snabbt beskriva vad grafen ska visa så att den informationen fortfarande når läsaren.
+
+Viktiga bilder kan även vara loggor eller ikoner om de inte är kopplade till någon text som ger samma information. Såsom ett förstoringsglas med text bredvid "sök här". 
+Om det endast var ett förstoringsglas försvinner informationen för läsaren att det finns ett sökfält på sidan och vart den är.
+Men på samma sätt är det också viktigt att inte ge någon alt text till bilder som inte medför någon viktig information för att inte förvirra användaren och se till att de 
+inte bilderett stör moment. Många hemsidor använder öven bilder för att snabbt ge användaren en idé av vad de arbetar med som kanske inte blir självklart endast genom texten på hemsidan.
+
+4. 
+Likt Semantic element hjälper landmarks en användare att få en snabb överblick av en hemsida och navigera runt om på den, men på ett mycket mer övergripande sätt. Här hör element såsom
+"header" och "footer" till. Istället för små individuella delar som "button" eller "paragraph" som hör till Semantic element kan man med hjälp av landmarks snabbt hoppa till de större 
+delarna av en hemsida, såsom the body eller the footer som alltid är längt ner. Landmarks visar de större indelningarna av en hemsida, men visar även viktiga sektioner såsom 
+"navigation" som oftast är väsentlig för en användare att komma till rätt sida. När man arbetar med landmarks är det viktigt att bara använda
+en av varje element. En hemsida med flera headers låter bara förvirrande. Om man av någon anledning behöver ha fler av samma element kan man ge dem alla en varsin label som är mer beskrivande 
+utöver derasstörre landmark element. 
+
+5.
+För synskadade användare vet de inte vilken information som ska användas i en form om det inte finns en beskrivande label. Genom att använda en label, blir den automatiskt upläst ex av en 
+screen reader när användaren klickar in sig i det fältet. Genom att använda labels förstorar man även klickfältet runt exempelvis radio eller checkboxes fält vilket hjälper inte bara 
+individer med synskada, utan även individer med fysiska funktionsnedsättningar. Förutom att avnända rätt labels som beskriver vad som ska fyllas i i varje fält, är det även viktigt att 
+ge de obligatoriska fälten en extra "obligatorisk" label, så att även den informationen kan bli förmedlad. Tänk på att en place-holder inte är en label.
+
+När fler fält ska fyllas i till samma fråga, ex, födelsedatum eller hemadress är det viktigt att alla fält, förutom deras egna label (dag, månad, år / gata, postnummer, ort) också har en
+övergripande label såsom, ditt födelseår, din hemadress. 
